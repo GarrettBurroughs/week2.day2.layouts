@@ -9,7 +9,7 @@
 5. Copy and paste the entire content in "_content_filler.html" into the `.main_content` div.
 6. We could use left and right padding to center the content better, but what if we want to use that space for more content (in another div)? We can use the flexbox model to do that!
    - The items in the `.main_content_container` div will be positioned using the flexbox model
-   - You should already have a `.flex_padding` div before and after the `.main_content` div, which will serve as the padding mentioned above.
+   - You should already have a `.flex_padding` div before and after the `.main_content` div, which will serve as the padding mentioned above.v
      - Give `.flex_padding` a width of 10% of it's container, and a `background-color` of pink (to keep with the theme, and to help visualize where it is!)
 7. Hmm, that doesn't look like 10%. What's going on!? Effectively, the content in `.main_content` is messing up how flex fills space (check out this link on [why flex is weird sometimes](https://css-tricks.com/flex-grow-is-weird/)).
    - Recall how we forced the height to fill the space between the nav bar and footer. The same trick can be use to force elements to shrink into place.
